@@ -1,20 +1,21 @@
 ---
-title: This is my first post
+title: This is my first post tester
 description: Capitalize on low hanging fruit to identify a ballpark value added
   activity to beta test. Override the digital divide with additional
   clickthroughs from DevOps.
 author: Surjith S M
 date: 2020-09-01
 tags:
-  - left
-  - center
-  - right
+  - created
+  - from
 ---
 # This is a Heading h1
 
 ## This is a Heading h2
 
 ###### This is a Heading h6
+
+![](/static/img/story-10.jpg)
 
 ## Emphasis
 

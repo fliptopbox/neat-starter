@@ -12,9 +12,7 @@ module.exports = function (eleventyConfig) {
 
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
-    );
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
   });
 
   // Syntax Highlighting for Code blocks
@@ -28,8 +26,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "./src/admin/config.yml": "./admin/config.yml",
     "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
-    "./node_modules/prismjs/themes/prism-tomorrow.css":
-      "./static/css/prism-tomorrow.css",
+    "./node_modules/prismjs/themes/prism-tomorrow.css": "./static/css/prism-tomorrow.css",
   });
 
   // Copy Image Folder to /_site
